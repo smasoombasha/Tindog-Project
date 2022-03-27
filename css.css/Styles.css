@@ -1,0 +1,196 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*                   section                      */
+.coloredsection {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.whitesection {
+  background-color: #fff;
+}
+
+/* class section  */
+.h11 {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  text-shadow: 1px 1px 1px white;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+/* title section     */
+.container-fluid {
+  text-shadow: 0.4px 0.4px #F4FCD9;
+}
+
+.googleplay {
+  width: 20px;
+  margin-bottom: 4px;
+}
+
+.applestore {
+  width: 20px;
+  margin-bottom: 4px;
+}
+
+/*  navbar section  */
+.navbar-brand {
+  font-family: 'Fredoka', sans-serif;
+}
+
+.nav-item {
+  padding: 0 15px 0 15px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-family: 'Hubballi', cursive;
+}
+
+.downloadbutton {
+  margin: 5% 3% 5% 0;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 900;
+  text-shadow: 0.5px 0.5px #fff;
+}
+
+/*          title   image classes              */
+.titleimage {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 290px;
+}
+
+/*            features classes              */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.featuresbox {
+  padding: 5%;
+}
+
+.featuresrow {
+  width: 17%;
+  margin-bottom: 2rem;
+}
+
+/*           testimonial section     */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.h22 {
+  text-shadow: 1px 1px 1px white;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+.testimonialimg {
+  width: 25%;
+  border-radius: 100%;
+}
+
+em {
+  font-weight: bold;
+  font-family: 'Hubballi', cursive;
+}
+
+/* press section   */
+#press {
+  background-color: #ef8172;
+  padding: 5%;
+}
+
+.pressimg {
+  width: 17%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  line-height: 1.5;
+}
+
+.h22 {
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+.pricingheader {
+  padding-bottom: 40px;
+}
+
+.btn {
+  font-family: 'Hubballi', cursive;
+}
+
+/*                    call to Action section   */
+#cta {
+  font-family: 'Montserrat';
+  text-shadow: 1px 1px 1px white;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.downloadbutton1 {
+  margin: 3% 0.5%;
+  font-family: 'Hubballi', cursive;
+  text-shadow: 0.5px 0.5px #fff;
+}
+
+.h33 {
+  font-size: 30px;
+  text-shadow: 1px 1px 1px white;
+  font-weight: 900;
+}
+
+/*                    footer section   */
+#footer {
+  padding: 60px 0 70px 0;
+}
+
+.footerimage {
+  width: 20px;
+}
+
+/*                     @media query  section   */
+@media (max-width:990px) {
+  .titleimage {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+@media (min-width:1000px) and (max-width:1400px) {
+  .titleimage {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 180px;
+    width: 24%;
+  }
+}
